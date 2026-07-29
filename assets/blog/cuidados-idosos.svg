@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs><linearGradient id="b1" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#eff6ff"/><stop offset="100%" stop-color="#ecfdf5"/></linearGradient></defs>
+  <rect width="800" height="500" fill="url(#b1)"/>
+  <circle cx="700" cy="120" r="100" fill="#dbeafe" opacity="0.5"/>
+  <circle cx="120" cy="400" r="90" fill="#d1fae5" opacity="0.5"/>
+  <!-- Coração grande -->
+  <g transform="translate(400,220) scale(3)" fill="#ef4444" opacity="0.9">
+    <path d="M0,12 C-15,-8 -40,8 0,36 C40,8 15,-8 0,12"/>
+  </g>
+  <!-- Mãos -->
+  <g transform="translate(280,360)">
+    <ellipse cx="0" cy="0" rx="35" ry="20" fill="#fca5a5"/>
+    <ellipse cx="50" cy="0" rx="35" ry="20" fill="#fdba74"/>
+  </g>
+  <text x="400" y="440" text-anchor="middle" font-family="Poppins, sans-serif" font-size="28" font-weight="600" fill="#1e293b">Cuidados com Idosos</text>
+</svg>

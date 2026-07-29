@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs><linearGradient id="b2" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#fff7ed"/><stop offset="100%" stop-color="#ecfdf5"/></linearGradient></defs>
+  <rect width="800" height="500" fill="url(#b2)"/>
+  <!-- Prato -->
+  <ellipse cx="400" cy="260" rx="160" ry="50" fill="white" stroke="#cbd5e1" stroke-width="4"/>
+  <!-- Frutas -->
+  <circle cx="340" cy="250" r="30" fill="#ef4444"/>
+  <circle cx="400" cy="240" r="35" fill="#f97316"/>
+  <circle cx="460" cy="250" r="30" fill="#84cc16"/>
+  <circle cx="400" cy="280" r="28" fill="#facc15"/>
+  <!-- Copo -->
+  <rect x="560" y="180" width="60" height="110" rx="8" fill="#3b82f6" opacity="0.3"/>
+  <rect x="570" y="190" width="40" height="90" rx="4" fill="#3b82f6" opacity="0.6"/>
+  <text x="400" y="440" text-anchor="middle" font-family="Poppins, sans-serif" font-size="28" font-weight="600" fill="#1e293b">Alimentação Saudável</text>
+</svg>
