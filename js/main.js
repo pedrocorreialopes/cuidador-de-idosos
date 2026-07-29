@@ -80,12 +80,12 @@ const FALLBACK_DATA = {
     }
   ],
   gallery: [
-    { id: "g1", titulo: "Atendimento Domiciliar", descricao: "Cuidado atencioso no ambiente familiar.", imagem: "assets/gallery/atendimento-domiciliar.svg" },
-    { id: "g2", titulo: "Passeios ao Ar Livre", descricao: "Momentos de frescor e movimento.", imagem: "assets/gallery/passeios.svg" },
-    { id: "g3", titulo: "Leitura e Conversa", descricao: "Estímulo cognitivo e companhia.", imagem: "assets/gallery/leitura.svg" },
-    { id: "g4", titulo: "Momentos de Interação", descricao: "Carinho e atenção em cada detalhe.", imagem: "assets/gallery/interacao.svg" },
-    { id: "g5", titulo: "Ambiente Organizado", descricao: "Segurança e conforto para o idoso.", imagem: "assets/gallery/ambiente.svg" },
-    { id: "g6", titulo: "Bem-estar em Família", descricao: "Conexão afetiva e tranquilidade.", imagem: "assets/gallery/familia.svg" }
+    { id: "g1", titulo: "Atendimento Domiciliar", descricao: "Cuidado atencioso no ambiente familiar.", imagem: "assets/gallery/atendimento-domiciliar.jpg" },
+    { id: "g2", titulo: "Passeios ao Ar Livre", descricao: "Momentos de frescor e movimento.", imagem: "assets/gallery/passeios.jpg" },
+    { id: "g3", titulo: "Leitura e Conversa", descricao: "Estímulo cognitivo e companhia.", imagem: "assets/gallery/leitura.jpg" },
+    { id: "g4", titulo: "Momentos de Interação", descricao: "Carinho e atenção em cada detalhe.", imagem: "assets/gallery/interacao.jpg" },
+    { id: "g5", titulo: "Ambiente Organizado", descricao: "Segurança e conforto para o idoso.", imagem: "assets/gallery/ambiente.jpg" },
+    { id: "g6", titulo: "Bem-estar em Família", descricao: "Conexão afetiva e tranquilidade.", imagem: "assets/gallery/familia.jpg" }
   ],
   testimonials: [
     { id: "t1", nome: "Cristina Mendes", cidade: "São Paulo, SP", foto: "assets/testimonials/cristina.svg", avaliacao: 5, comentario: "A atenção e o carinho dedicados ao meu pai foram transformadores. Sentimos segurança em cada momento." },
