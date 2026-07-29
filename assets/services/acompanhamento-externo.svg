@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs><linearGradient id="g4" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#eff6ff"/><stop offset="100%" stop-color="#ecfdf5"/></linearGradient></defs>
+  <rect width="800" height="600" fill="url(#g4)"/>
+  <circle cx="680" cy="140" r="120" fill="#dbeafe" opacity="0.5"/>
+  <circle cx="140" cy="500" r="130" fill="#d1fae5" opacity="0.5"/>
+  <!-- Caminho -->
+  <path d="M0,520 Q400,480 800,520 L800,600 L0,600 Z" fill="#e2e8f0"/>
+  <!-- Árvores -->
+  <g transform="translate(100,130)"><circle r="50" fill="#10b981" opacity="0.7"/><rect x="-8" y="40" width="16" height="60" fill="#64748b"/></g>
+  <g transform="translate(700,150)"><circle r="60" fill="#2563eb" opacity="0.2"/><rect x="-8" y="50" width="16" height="60" fill="#64748b"/></g>
+  <!-- Cuidador -->
+  <g transform="translate(340,180)">
+    <path d="M-45,140 Q-55,105 0,100 Q55,105 45,140 L58,300 L-58,300 Z" fill="#2563eb"/>
+    <rect x="-18" y="70" width="36" height="36" fill="#fca5a5"/>
+    <ellipse cx="0" cy="25" rx="45" ry="55" fill="#fca5a5"/>
+    <path d="M-45,20 Q-50,-25 0,-32 Q50,-25 45,20 Q45,2 32,-10 Q0,-18 -32,-10 Q-45,2 -45,20" fill="#334155"/>
+    <circle cx="-15" cy="22" r="5" fill="#1e293b"/><circle cx="15" cy="22" r="5" fill="#1e293b"/>
+    <path d="M-12,45 Q0,55 12,45" stroke="#1e293b" stroke-width="3" fill="none"/>
+  </g>
+  <!-- Idoso com bengala -->
+  <g transform="translate(480,210)">
+    <path d="M-40,120 Q-50,90 0,85 Q50,90 40,120 L52,270 L-52,270 Z" fill="#10b981"/>
+    <rect x="-17" y="60" width="34" height="30" fill="#fdba74"/>
+    <ellipse cx="0" cy="18" rx="42" ry="50" fill="#fdba74"/>
+    <path d="M-42,14 Q-46,-22 0,-30 Q46,-22 42,14 Q42,-2 30,-12 Q0,-18 -30,-12 Q-42,-2 -42,14" fill="#e2e8f0"/>
+    <circle cx="-14" cy="15" r="5" fill="#1e293b"/><circle cx="14" cy="15" r="5" fill="#1e293b"/>
+    <path d="M-12,38 Q0,46 12,38" stroke="#1e293b" stroke-width="3" fill="none"/>
+    <!-- Bengala -->
+    <line x1="55" y1="120" x2="55" y2="270" stroke="#64748b" stroke-width="6" stroke-linecap="round"/>
+  </g>
+</svg>

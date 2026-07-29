@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs><linearGradient id="g3" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#eff6ff"/><stop offset="100%" stop-color="#ecfdf5"/></linearGradient></defs>
+  <rect width="800" height="600" fill="url(#g3)"/>
+  <circle cx="700" cy="130" r="95" fill="#dbeafe" opacity="0.5"/>
+  <circle cx="120" cy="500" r="100" fill="#d1fae5" opacity="0.5"/>
+  <!-- Mesa -->
+  <rect x="200" y="340" width="400" height="20" rx="6" fill="#94a3b8"/>
+  <rect x="230" y="360" width="24" height="90" fill="#94a3b8"/>
+  <rect x="546" y="360" width="24" height="90" fill="#94a3b8"/>
+  <!-- Cuidador -->
+  <g transform="translate(520,140)">
+    <path d="M-45,140 Q-55,105 0,100 Q55,105 45,140 L58,260 L-58,260 Z" fill="#2563eb"/>
+    <rect x="-18" y="70" width="36" height="36" fill="#fca5a5"/>
+    <ellipse cx="0" cy="25" rx="45" ry="55" fill="#fca5a5"/>
+    <path d="M-45,20 Q-50,-25 0,-32 Q50,-25 45,20 Q45,2 32,-10 Q0,-18 -32,-10 Q-45,2 -45,20" fill="#334155"/>
+    <circle cx="-15" cy="22" r="5" fill="#1e293b"/><circle cx="15" cy="22" r="5" fill="#1e293b"/>
+    <path d="M-12,45 Q0,55 12,45" stroke="#1e293b" stroke-width="3" fill="none"/>
+    <!-- Braço na mesa -->
+    <path d="M-60,160 Q-90,220 -120,210" stroke="#2563eb" stroke-width="22" stroke-linecap="round" fill="none"/>
+  </g>
+  <!-- Prato -->
+  <ellipse cx="400" cy="350" rx="70" ry="18" fill="white" stroke="#cbd5e1" stroke-width="3"/>
+  <circle cx="400" cy="345" r="22" fill="#10b981"/>
+  <!-- Ícone relógio -->
+  <g transform="translate(250,180)">
+    <circle r="48" fill="white" stroke="#2563eb" stroke-width="4"/>
+    <path d="M0,-32 L0,0 L22,16" stroke="#2563eb" stroke-width="5" stroke-linecap="round" fill="none"/>
+  </g>
+</svg>

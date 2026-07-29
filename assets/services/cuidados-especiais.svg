@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs><linearGradient id="g5" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#eff6ff"/><stop offset="100%" stop-color="#ecfdf5"/></linearGradient></defs>
+  <rect width="800" height="600" fill="url(#g5)"/>
+  <circle cx="700" cy="140" r="100" fill="#dbeafe" opacity="0.5"/>
+  <circle cx="120" cy="500" r="120" fill="#d1fae5" opacity="0.5"/>
+  <!-- Cama -->
+  <rect x="200" y="300" width="400" height="160" rx="12" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="3"/>
+  <rect x="200" y="300" width="400" height="60" rx="12" fill="#eff6ff"/>
+  <!-- Paciente -->
+  <g transform="translate(400,275)">
+    <ellipse cx="0" cy="180" rx="120" ry="30" fill="#cbd5e1" opacity="0.3"/>
+    <path d="M-100,60 Q-110,30 0,25 Q110,30 100,60 L110,120 L-110,120 Z" fill="#10b981"/>
+    <rect x="-20" y="-10" width="40" height="40" fill="#fdba74"/>
+    <ellipse cx="0" cy="-45" rx="45" ry="55" fill="#fdba74"/>
+    <path d="M-45,-50 Q-50,-90 0,-98 Q50,-90 45,-50 Q45,-66 32,-78 Q0,-86 -32,-78 Q-45,-66 -45,-50" fill="#e2e8f0"/>
+    <circle cx="-15" cy="-48" r="5" fill="#1e293b"/><circle cx="15" cy="-48" r="5" fill="#1e293b"/>
+    <path d="M-12,-25 Q0,-15 12,-25" stroke="#1e293b" stroke-width="3" fill="none"/>
+  </g>
+  <!-- Cuidador -->
+  <g transform="translate(580,140)">
+    <path d="M-40,130 Q-50,100 0,95 Q50,100 40,130 L52,300 L-52,300 Z" fill="#2563eb"/>
+    <rect x="-16" y="65" width="32" height="34" fill="#fca5a5"/>
+    <ellipse cx="0" cy="22" rx="42" ry="52" fill="#fca5a5"/>
+    <path d="M-42,18 Q-46,-22 0,-30 Q46,-22 42,18 Q42,0 30,-10 Q0,-18 -30,-10 Q-42,0 -42,18" fill="#334155"/>
+    <circle cx="-14" cy="18" r="5" fill="#1e293b"/><circle cx="14" cy="18" r="5" fill="#1e293b"/>
+    <path d="M-12,42 Q0,50 12,42" stroke="#1e293b" stroke-width="3" fill="none"/>
+    <!-- Braço estendido -->
+    <path d="M-50,160 Q-120,220 -160,220" stroke="#2563eb" stroke-width="24" stroke-linecap="round" fill="none"/>
+  </g>
+  <!-- Coração -->
+  <g transform="translate(660,220)" fill="#ef4444">
+    <path d="M0,15 C-20,-10 -50,10 0,45 C50,10 20,-10 0,15"/>
+  </g>
+</svg>
