@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs><linearGradient id="gg5" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#eff6ff"/><stop offset="100%" stop-color="#ecfdf5"/></linearGradient></defs>
+  <rect width="800" height="600" fill="url(#gg5)"/>
+  <!-- Quarto -->
+  <rect x="100" y="100" width="600" height="400" fill="#f8fafc" stroke="#cbd5e1" stroke-width="4"/>
+  <!-- Janela -->
+  <rect x="180" y="160" width="200" height="140" fill="#dbeafe" stroke="#94a3b8" stroke-width="4"/>
+  <line x1="280" y1="160" x2="280" y2="300" stroke="#94a3b8" stroke-width="4"/>
+  <line x1="180" y1="230" x2="380" y2="230" stroke="#94a3b8" stroke-width="4"/>
+  <!-- Cama -->
+  <rect x="420" y="280" width="240" height="160" rx="12" fill="#cbd5e1"/>
+  <rect x="420" y="280" width="240" height="60" rx="12" fill="#eff6ff"/>
+  <!-- Mesa de cabeceira -->
+  <rect x="480" y="230" width="80" height="60" fill="#94a3b8"/>
+  <!-- Planta -->
+  <g transform="translate(160,420)">
+    <rect x="-15" y="0" width="30" height="50" fill="#64748b"/>
+    <ellipse cx="0" cy="-20" rx="40" ry="50" fill="#10b981"/>
+  </g>
+  <!-- Coração -->
+  <g transform="translate(700,140)" fill="#ef4444">
+    <path d="M0,15 C-20,-10 -50,10 0,45 C50,10 20,-10 0,15"/>
+  </g>
+</svg>

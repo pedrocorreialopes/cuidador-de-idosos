@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs><linearGradient id="gg1" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#eff6ff"/><stop offset="100%" stop-color="#ecfdf5"/></linearGradient></defs>
+  <rect width="800" height="600" fill="url(#gg1)"/>
+  <!-- Sofá -->
+  <rect x="150" y="320" width="500" height="160" rx="20" fill="#cbd5e1"/>
+  <rect x="150" y="320" width="500" height="70" rx="20" fill="#94a3b8"/>
+  <rect x="150" y="460" width="80" height="60" fill="#94a3b8"/>
+  <rect x="570" y="460" width="80" height="60" fill="#94a3b8"/>
+  <!-- Idoso no sofá -->
+  <g transform="translate(300,250)">
+    <path d="M-45,130 Q-55,100 0,95 Q55,100 45,130 L55,230 L-55,230 Z" fill="#10b981"/>
+    <rect x="-17" y="65" width="34" height="34" fill="#fdba74"/>
+    <ellipse cx="0" cy="22" rx="42" ry="50" fill="#fdba74"/>
+    <path d="M-42,18 Q-46,-22 0,-28 Q46,-22 42,18 Q42,0 30,-10 Q0,-16 -30,-10 Q-42,0 -42,18" fill="#e2e8f0"/>
+    <circle cx="-14" cy="15" r="5" fill="#1e293b"/><circle cx="14" cy="15" r="5" fill="#1e293b"/>
+    <path d="M-12,38 Q0,46 12,38" stroke="#1e293b" stroke-width="3" fill="none"/>
+  </g>
+  <!-- Cuidador ao lado -->
+  <g transform="translate(500,220)">
+    <path d="M-40,130 Q-50,100 0,95 Q50,100 40,130 L52,280 L-52,280 Z" fill="#2563eb"/>
+    <rect x="-16" y="65" width="32" height="34" fill="#fca5a5"/>
+    <ellipse cx="0" cy="22" rx="42" ry="50" fill="#fca5a5"/>
+    <path d="M-42,18 Q-46,-22 0,-28 Q46,-22 42,18 Q42,0 30,-10 Q0,-16 -30,-10 Q-42,0 -42,18" fill="#334155"/>
+    <circle cx="-14" cy="15" r="5" fill="#1e293b"/><circle cx="14" cy="15" r="5" fill="#1e293b"/>
+    <path d="M-12,38 Q0,46 12,38" stroke="#1e293b" stroke-width="3" fill="none"/>
+  </g>
+</svg>
