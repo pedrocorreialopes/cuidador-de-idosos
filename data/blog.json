@@ -1,1 +1,30 @@
-
+[
+  {
+    "id": "b1",
+    "titulo": "Cuidados com Idosos: Dicas Essenciais",
+    "resumo": "Orientações práticas para garantir segurança, conforto e qualidade de vida no dia a dia.",
+    "imagem": "assets/blog/cuidados-idosos.svg",
+    "data": "2026-07-15"
+  },
+  {
+    "id": "b2",
+    "titulo": "Alimentação Saudável na Terceira Idade",
+    "resumo": "Como montar refeições nutritivas e saborosas para idosos.",
+    "imagem": "assets/blog/alimentacao.svg",
+    "data": "2026-07-08"
+  },
+  {
+    "id": "b3",
+    "titulo": "Prevenção de Quedas em Casa",
+    "resumo": "Ajustes simples que fazem toda a diferença na segurança do ambiente domiciliar.",
+    "imagem": "assets/blog/quedas.svg",
+    "data": "2026-06-28"
+  },
+  {
+    "id": "b4",
+    "titulo": "Doença de Alzheimer: Como Ajudar",
+    "resumo": "Comportamentos e cuidados que promovem bem-estar para pacientes e familiares.",
+    "imagem": "assets/blog/alzheimer.svg",
+    "data": "2026-06-20"
+  }
+]

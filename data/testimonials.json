@@ -1,0 +1,26 @@
+[
+  {
+    "id": "t1",
+    "nome": "Cristina Mendes",
+    "cidade": "São Paulo, SP",
+    "foto": "assets/testimonials/cristina.svg",
+    "avaliacao": 5,
+    "comentario": "A atenção e o carinho dedicados ao meu pai foram transformadores. Sentimos segurança em cada momento."
+  },
+  {
+    "id": "t2",
+    "nome": "Roberto Almeida",
+    "cidade": "Rio de Janeiro, RJ",
+    "foto": "assets/testimonials/roberto.svg",
+    "avaliacao": 5,
+    "comentario": "Profissional extremamente competente, paciente e comprometida. Recomendo de coração."
+  },
+  {
+    "id": "t3",
+    "nome": "Fernanda Lopes",
+    "cidade": "Belo Horizonte, MG",
+    "foto": "assets/testimonials/fernanda.svg",
+    "avaliacao": 5,
+    "comentario": "A tranquilidade que tivemos ao contratar esse serviço foi imensa. Nossa família agradece muito."
+  }
+]

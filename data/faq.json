@@ -1,0 +1,27 @@
+[
+  {
+    "id": "f1",
+    "pergunta": "O atendimento é domiciliar?",
+    "resposta": "Sim, o atendimento é realizado na residência do idoso, garantindo conforto, segurança e proximidade com a família."
+  },
+  {
+    "id": "f2",
+    "pergunta": "Atende plantão noturno?",
+    "resposta": "Sim, é possível agendar plantões noturnos de acordo com a disponibilidade e a necessidade da família."
+  },
+  {
+    "id": "f3",
+    "pergunta": "Realiza acompanhamento hospitalar?",
+    "resposta": "Sim, realizo acompanhamento em consultas, exames e emergências, mantendo a família sempre informada."
+  },
+  {
+    "id": "f4",
+    "pergunta": "Atende finais de semana?",
+    "resposta": "Sim, atendimentos podem ser agendados para sábados, domingos e feriados, conforme demanda."
+  },
+  {
+    "id": "f5",
+    "pergunta": "Como funciona a contratação?",
+    "resposta": "A contratação começa com uma conversa para entender as necessidades, seguida de uma visita de avaliação e proposta personalizada."
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "id": "c1",
+    "titulo": "Primeiros Socorros",
+    "instituicao": "Cruz Vermelha Brasileira",
+    "ano": "2024",
+    "imagem": "assets/certificates/primeiros-socorros.svg",
+    "descricao": "Capacitação em atendimento de emergências e primeiros socorros."
+  },
+  {
+    "id": "c2",
+    "titulo": "APH",
+    "instituicao": "Corpo de Bombeiros",
+    "ano": "2023",
+    "imagem": "assets/certificates/aph.svg",
+    "descricao": "Atendimento Pré-Hospitalar para situações de urgência."
+  },
+  {
+    "id": "c3",
+    "titulo": "Cuidados Geriátricos",
+    "instituicao": "Escola de Cuidadores",
+    "ano": "2025",
+    "imagem": "assets/certificates/geriatrico.svg",
+    "descricao": "Especialização em cuidados com idosos e condições senis."
+  },
+  {
+    "id": "c4",
+    "titulo": "Alzheimer e Parkinson",
+    "instituicao": "Instituto de Geriatria",
+    "ano": "2024",
+    "imagem": "assets/certificates/neuro.svg",
+    "descricao": "Cuidados específicos para pacientes com doenças neurodegenerativas."
+  }
+]

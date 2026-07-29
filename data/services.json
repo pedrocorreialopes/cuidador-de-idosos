@@ -1,0 +1,67 @@
+[
+  {
+    "id": "cuidados-basicos",
+    "nome": "Cuidados Básicos",
+    "categoria": "Cuidados Básicos",
+    "descricao": "Assistência diária essencial para manter o idoso limpo, confortável e bem cuidado.",
+    "imagem": "assets/services/cuidados-basicos.svg",
+    "duracao": "Conforme necessidade",
+    "modalidade": "Domiciliar",
+    "contato": "https://wa.me/55",
+    "beneficios": ["Higiene pessoal com segurança", "Prevenção de quedas e lesões", "Bem-estar e dignidade preservados"],
+    "como_funciona": ["Avaliação das necessidades individuais", "Planejamento de rotina de cuidados", "Execução diária com registros"],
+    "cuidados": ["Higiene pessoal", "Banho assistido", "Troca de roupas", "Alimentação", "Hidratação", "Administração de medicamentos (quando permitido)"]
+  },
+  {
+    "id": "acompanhamento",
+    "nome": "Acompanhamento",
+    "categoria": "Acompanhamento",
+    "descricao": "Companhia, conversas e atividades para estimular a saúde mental e física do idoso.",
+    "imagem": "assets/services/acompanhamento.svg",
+    "duracao": "Conforme necessidade",
+    "modalidade": "Domiciliar / Externo",
+    "contato": "https://wa.me/55",
+    "beneficios": ["Redução da solidão", "Estímulo cognitivo", "Maior qualidade de vida"],
+    "como_funciona": ["Conversa e escuta ativa", "Atividades recreativas e leituras", "Caminhadas e exercícios leves"],
+    "cuidados": ["Companhia", "Conversas", "Leitura", "Jogos", "Caminhadas", "Exercícios leves"]
+  },
+  {
+    "id": "apoio-diario",
+    "nome": "Apoio Diário",
+    "categoria": "Apoio Diário",
+    "descricao": "Organização da rotina, preparação de refeições e apoio nas tarefas cotidianas.",
+    "imagem": "assets/services/apoio-diario.svg",
+    "duracao": "Conforme necessidade",
+    "modalidade": "Domiciliar",
+    "contato": "https://wa.me/55",
+    "beneficios": ["Rotina estruturada", "Ambiente seguro e organizado", "Mais autonomia para o idoso"],
+    "como_funciona": ["Organização da rotina diária", "Preparação de refeições saudáveis", "Compras e organização do ambiente"],
+    "cuidados": ["Organização da rotina", "Preparação de refeições", "Compras", "Organização do ambiente"]
+  },
+  {
+    "id": "acompanhamento-externo",
+    "nome": "Acompanhamento Externo",
+    "categoria": "Acompanhamento Externo",
+    "descricao": "Acompanhamento em consultas, exames, farmácia e eventos familiares.",
+    "imagem": "assets/services/acompanhamento-externo.svg",
+    "duracao": "Conforme necessidade",
+    "modalidade": "Externo",
+    "contato": "https://wa.me/55",
+    "beneficios": ["Segurança em deslocamentos", "Comunicação com a família", "Apoio em momentos importantes"],
+    "como_funciona": ["Agendamento e planejamento", "Transporte e acompanhamento", "Retorno com informações à família"],
+    "cuidados": ["Consultas médicas", "Exames", "Farmácia", "Passeios", "Eventos familiares"]
+  },
+  {
+    "id": "cuidados-especiais",
+    "nome": "Cuidados Especiais",
+    "categoria": "Cuidados Especiais",
+    "descricao": "Atendimento especializado para idosos com condições específicas de saúde.",
+    "imagem": "assets/services/cuidados-especiais.svg",
+    "duracao": "Conforme necessidade",
+    "modalidade": "Domiciliar",
+    "contato": "https://wa.me/55",
+    "beneficios": ["Atendimento individualizado", "Técnicas específicas para cada condição", "Maior tranquilidade para a família"],
+    "como_funciona": ["Avaliação especializada", "Plano de cuidados personalizado", "Acompanhamento contínuo"],
+    "cuidados": ["Pós-operatório", "Alzheimer", "Parkinson", "Mobilidade reduzida", "Cuidados paliativos", "Pacientes acamados"]
+  }
+]
