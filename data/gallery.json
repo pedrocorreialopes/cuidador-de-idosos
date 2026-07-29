@@ -3,36 +3,36 @@
     "id": "g1",
     "titulo": "Atendimento Domiciliar",
     "descricao": "Cuidado atencioso no ambiente familiar.",
-    "imagem": "assets/gallery/atendimento-domiciliar.svg"
+    "imagem": "assets/gallery/atendimento-domiciliar.jpg"
   },
   {
     "id": "g2",
     "titulo": "Passeios ao Ar Livre",
     "descricao": "Momentos de frescor e movimento.",
-    "imagem": "assets/gallery/passeios.svg"
+    "imagem": "assets/gallery/passeios.jpg"
   },
   {
     "id": "g3",
     "titulo": "Leitura e Conversa",
     "descricao": "Estímulo cognitivo e companhia.",
-    "imagem": "assets/gallery/leitura.svg"
+    "imagem": "assets/gallery/leitura.jpg"
   },
   {
     "id": "g4",
     "titulo": "Momentos de Interação",
     "descricao": "Carinho e atenção em cada detalhe.",
-    "imagem": "assets/gallery/interacao.svg"
+    "imagem": "assets/gallery/interacao.jpg"
   },
   {
     "id": "g5",
     "titulo": "Ambiente Organizado",
     "descricao": "Segurança e conforto para o idoso.",
-    "imagem": "assets/gallery/ambiente.svg"
+    "imagem": "assets/gallery/ambiente.jpg"
   },
   {
     "id": "g6",
     "titulo": "Bem-estar em Família",
     "descricao": "Conexão afetiva e tranquilidade.",
-    "imagem": "assets/gallery/familia.svg"
+    "imagem": "assets/gallery/familia.jpg"
   }
 ]
