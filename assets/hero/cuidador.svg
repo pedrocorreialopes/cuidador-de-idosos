@@ -1,1 +1,53 @@
-
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#eff6ff"/>
+      <stop offset="100%" stop-color="#ecfdf5"/>
+    </linearGradient>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <!-- Círculos decorativos -->
+  <circle cx="650" cy="200" r="140" fill="#dbeafe" opacity="0.6"/>
+  <circle cx="150" cy="750" r="180" fill="#d1fae5" opacity="0.5"/>
+  <!-- Cuidador -->
+  <g transform="translate(360,260)">
+    <ellipse cx="0" cy="460" rx="140" ry="40" fill="#cbd5e1" opacity="0.3"/>
+    <!-- Corpo cuidador -->
+    <path d="M-60,160 Q-70,120 0,110 Q70,120 60,160 L75,440 L-75,440 Z" fill="#2563eb"/>
+    <!-- Pescoço -->
+    <rect x="-22" y="70" width="44" height="50" fill="#fca5a5"/>
+    <!-- Cabeça -->
+    <ellipse cx="0" cy="30" rx="55" ry="65" fill="#fca5a5"/>
+    <!-- Cabelo -->
+    <path d="M-55,25 Q-60,-30 0,-40 Q60,-30 55,25 Q55,5 40,-10 Q0,-20 -40,-10 Q-55,5 -55,25" fill="#334155"/>
+    <!-- Rosto -->
+    <circle cx="-18" cy="25" r="5" fill="#1e293b"/>
+    <circle cx="18" cy="25" r="5" fill="#1e293b"/>
+    <path d="M-15,50 Q0,62 15,50" stroke="#1e293b" stroke-width="3" fill="none"/>
+    <!-- Braço -->
+    <path d="M-70,180 Q-110,260 -80,320" stroke="#2563eb" stroke-width="28" stroke-linecap="round" fill="none"/>
+  </g>
+  <!-- Idoso -->
+  <g transform="translate(180,300)">
+    <ellipse cx="0" cy="420" rx="130" ry="38" fill="#cbd5e1" opacity="0.3"/>
+    <!-- Corpo idoso -->
+    <path d="M-55,150 Q-65,110 0,105 Q65,110 55,150 L68,420 L-68,420 Z" fill="#10b981"/>
+    <!-- Pescoço -->
+    <rect x="-20" y="70" width="40" height="42" fill="#fdba74"/>
+    <!-- Cabeça -->
+    <ellipse cx="0" cy="28" rx="52" ry="62" fill="#fdba74"/>
+    <!-- Cabelo branco -->
+    <path d="M-52,22 Q-58,-25 0,-34 Q58,-25 52,22 Q52,5 38,-8 Q0,-16 -38,-8 Q-52,5 -52,22" fill="#e2e8f0"/>
+    <!-- Rosto -->
+    <circle cx="-17" cy="22" r="5" fill="#1e293b"/>
+    <circle cx="17" cy="22" r="5" fill="#1e293b"/>
+    <path d="M-14,48 Q0,58 14,48" stroke="#1e293b" stroke-width="3" fill="none"/>
+  </g>
+  <!-- Mãos dadas -->
+  <circle cx="280" cy="580" r="22" fill="#fca5a5"/>
+  <circle cx="315" cy="580" r="22" fill="#fdba74"/>
+</svg>
