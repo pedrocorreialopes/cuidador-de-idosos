@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cuidador(a) de Idosos</title>
+  <meta name="description" content="Cuidado humanizado, seguro e profissional para idosos. Serviços domiciliares, acompanhamento, cuidados especiais e muito mais.">
+  <meta name="keywords" content="cuidador de idosos, cuidados domiciliares, assistência ao idoso, acompanhamento, cuidados paliativos, idosos">
+  <meta name="author" content="Pedro Correia Lopes Filho">
+  <meta property="og:title" content="Cuidador(a) de Idosos — Cuidar com respeito, dedicação e amor">
+  <meta property="og:description" content="Serviços premium de cuidado ao idoso, com humanização, segurança e profissionalismo.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/hero/cuidador.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="./">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Nunito:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#2563EB',
+            primary700: '#1D4ED8',
+            secondary: '#10B981',
+            accent: '#F8FAFC',
+            text: '#1E293B',
+            textlight: '#475569'
+          },
+          fontFamily: {
+            sans: ['Inter', 'Poppins', 'Nunito', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="assets/icons/icon-192.svg">
+  <meta name="theme-color" content="#2563EB">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Pular para conteúdo principal</a>
+
+  <nav id="navbar" class="navbar" role="navigation" aria-label="Menu principal">
+    <div class="nav-container">
+      <a href="index.html" class="logo" aria-label="Voltar para página inicial">
+        <i class="fas fa-heart-pulse" aria-hidden="true"></i>
+        <span id="logo-name">Maria</span>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#experiencia">Experiência</a></li>
+        <li><a href="#galeria">Galeria</a></li>
+        <li><a href="#depoimentos">Depoimentos</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button id="theme-toggle" class="icon-btn" aria-label="Alternar tema claro/escuro">
+          <i class="fas fa-moon" aria-hidden="true"></i>
+        </button>
+        <a href="#contato" class="btn btn-primary hidden sm:flex">Agendar Visita</a>
+        <button id="mobile-menu-btn" class="mobile-menu-btn" aria-label="Abrir menu" aria-expanded="false">
+          <i class="fas fa-bars" aria-hidden="true"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <div id="mobile-menu-overlay" class="mobile-menu-overlay"></div>
+  <div id="mobile-menu" class="mobile-menu" role="dialog" aria-label="Menu mobile">
+    <button id="mobile-menu-close" class="mobile-menu-close" aria-label="Fechar menu">
+      <i class="fas fa-times" aria-hidden="true"></i>
+    </button>
+    <ul class="mobile-menu-links">
+      <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+      <li><a href="#sobre"><i class="fas fa-user"></i> Sobre</a></li>
+      <li><a href="#servicos"><i class="fas fa-hands-holding-circle"></i> Serviços</a></li>
+      <li><a href="#experiencia"><i class="fas fa-briefcase"></i> Experiência</a></li>
+      <li><a href="#galeria"><i class="fas fa-images"></i> Galeria</a></li>
+      <li><a href="#depoimentos"><i class="fas fa-comment-dots"></i> Depoimentos</a></li>
+      <li><a href="#faq"><i class="fas fa-circle-question"></i> FAQ</a></li>
+      <li><a href="#contato"><i class="fas fa-calendar-check"></i> Agendar Visita</a></li>
+    </ul>
+  </div>
+
+  <main id="main-content">
+    <section id="home" class="hero" aria-label="Apresentação principal">
+      <div class="hero-container">
+        <div class="hero-content">
+          <span class="hero-badge">
+            <i class="fas fa-shield-heart" aria-hidden="true"></i>
+            Cuidado humanizado e profissional
+          </span>
+          <h1 class="hero-title">
+            <span id="hero-name">Maria Silva</span><br>
+            <span class="text-gradient" id="hero-cargo">Cuidadora de Idosos</span>
+          </h1>
+          <p class="hero-subtitle" id="hero-slogan">Cuidar com respeito, dedicação e amor em cada momento.</p>
+          <p class="hero-text">Ofereço acompanhamento personalizado para idosos, garantindo segurança, conforto e qualidade de vida no ambiente familiar. Cada cuidado é feito com empatia, paciência e respeito.</p>
+          <div class="hero-buttons">
+            <a href="#contato" class="btn btn-primary"><i class="fas fa-calendar-check" aria-hidden="true"></i> Agendar Avaliação</a>
+            <a href="https://wa.me/55" id="hero-whatsapp" class="btn btn-whatsapp" target="_blank"><i class="fab fa-whatsapp" aria-hidden="true"></i> Falar no WhatsApp</a>
+            <a href="#servicos" class="btn btn-secondary"><i class="fas fa-list-check" aria-hidden="true"></i> Conhecer Serviços</a>
+          </div>
+          <div class="hero-stats">
+            <div class="hero-stat">
+              <div class="hero-stat-number">+<span class="counter" data-target="120">0</span></div>
+              <div class="hero-stat-label">Idosos atendidos</div>
+            </div>
+            <div class="hero-stat">
+              <div class="hero-stat-number"><span class="counter" data-target="5">0</span> anos</div>
+              <div class="hero-stat-label">De experiência</div>
+            </div>
+            <div class="hero-stat">
+              <div class="hero-stat-number">100%</div>
+              <div class="hero-stat-label">Dedicação</div>
+            </div>
+          </div>
+        </div>
+        <div class="hero-image-wrapper">
+          <img src="assets/hero/cuidador.jpg" alt="Cuidador acompanhando idoso em ambiente acolhedor" class="hero-image">
+          <div class="hero-image-glass">
+            <div class="hero-glass-icon">
+              <i class="fas fa-hand-holding-heart" aria-hidden="true"></i>
+            </div>
+            <div class="hero-glass-text">
+              <h4>Atendimento Domiciliar</h4>
+              <p>Segurança e conforto para quem você ama.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre" class="about" aria-labelledby="sobre-title">
+      <div class="section-container">
+        <div class="about-grid">
+          <div class="about-image reveal-left">
+            <img src="assets/about/profissional.jpg" alt="Foto profissional do cuidador">
+            <div class="about-image-card">
+              <h4>+5 anos</h4>
+              <p>Cuidando com dedicação e respeito</p>
+            </div>
+          </div>
+          <div class="about-content reveal-right">
+            <span class="section-label">Sobre</span>
+            <h2 id="sobre-title" class="section-title">Uma história de cuidado e compromisso</h2>
+            <p>Meu trabalho vai muito além de assistência: é construir relacionamentos de confiança, respeitar a história de cada pessoa e oferecer suporte para que o idoso mantenha sua dignidade, autonomia e alegria.</p>
+            <p>Acredito que cada família merece tranquilidade e cada idoso merece atenção verdadeira. Por isso, meu compromisso é cuidar com paciência, empatia e profissionalismo.</p>
+
+            <div class="values-list">
+              <div class="value-item">
+                <div class="value-icon"><i class="fas fa-heart" aria-hidden="true"></i></div>
+                <div class="value-text">
+                  <h4>Humanização</h4>
+                  <p>Cuidado centrado na pessoa, com escuta e respeito.</p>
+                </div>
+              </div>
+              <div class="value-item">
+                <div class="value-icon"><i class="fas fa-shield-alt" aria-hidden="true"></i></div>
+                <div class="value-text">
+                  <h4>Segurança</h4>
+                  <p>Atitudes preventivas e ambientes adaptados.</p>
+                </div>
+              </div>
+              <div class="value-item">
+                <div class="value-icon"><i class="fas fa-graduation-cap" aria-hidden="true"></i></div>
+                <div class="value-text">
+                  <h4>Profissionalismo</h4>
+                  <p>Formação contínua e práticas atualizadas.</p>
+                </div>
+              </div>
+              <div class="value-item">
+                <div class="value-icon"><i class="fas fa-handshake" aria-hidden="true"></i></div>
+                <div class="value-text">
+                  <h4>Compromisso</h4>
+                  <p>Com o bem-estar do idoso e a tranquilidade da família.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="servicos" aria-labelledby="servicos-title">
+      <div class="section-container">
+        <div class="section-header reveal">
+          <span class="section-label">Serviços</span>
+          <h2 id="servicos-title" class="section-title">Cuidados pensados para cada necessidade</h2>
+          <p class="section-subtitle">Ofereço serviços personalizados para garantir conforto, segurança e qualidade de vida ao idoso no ambiente familiar ou externo.</p>
+        </div>
+        <div id="services-grid" class="services-grid">
+          <!-- Services rendered via JS -->
+        </div>
+      </div>
+    </section>
+
+    <section id="diferenciais" class="differentials" aria-labelledby="diferenciais-title">
+      <div class="section-container">
+        <div class="section-header reveal">
+          <span class="section-label">Por que me escolher?</span>
+          <h2 id="diferenciais-title" class="section-title">Diferenciais que fazem a diferença</h2>
+        </div>
+        <div class="differentials-grid">
+          <div class="differential-card reveal">
+            <div class="differential-icon">❤️</div>
+            <h3 class="differential-title">Atendimento Humanizado</h3>
+          </div>
+          <div class="differential-card reveal">
+            <div class="differential-icon">🕐</div>
+            <h3 class="differential-title">Pontualidade</h3>
+          </div>
+          <div class="differential-card reveal">
+            <div class="differential-icon">📜</div>
+            <h3 class="differential-title">Profissional Capacitado</h3>
+          </div>
+          <div class="differential-card reveal">
+            <div class="differential-icon">🏡</div>
+            <h3 class="differential-title">Atendimento Domiciliar</h3>
+          </div>
+          <div class="differential-card reveal">
+            <div class="differential-icon">🤝</div>
+            <h3 class="differential-title">Respeito à Individualidade</h3>
+          </div>
+          <div class="differential-card reveal">
+            <div class="differential-icon">📱</div>
+            <h3 class="differential-title">Comunicação com a Família</h3>
+          </div>
+          <div class="differential-card reveal">
+            <div class="differential-icon">🚑</div>
+            <h3 class="differential-title">Primeiros Socorros</h3>
+          </div>
+          <div class="differential-card reveal">
+            <div class="differential-icon">👵</div>
+            <h3 class="differential-title">Experiência com Idosos</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experiencia" aria-labelledby="experiencia-title">
+      <div class="section-container">
+        <div class="section-header reveal">
+          <span class="section-label">Experiência</span>
+          <h2 id="experiencia-title" class="section-title">Minha trajetória de cuidado</h2>
+          <p class="section-subtitle">Uma linha do tempo construída com cursos, experiências práticas e muito aprendizado ao lado de quem cuido.</p>
+        </div>
+        <div id="experience-timeline" class="timeline">
+          <!-- Experience rendered via JS -->
+        </div>
+      </div>
+    </section>
+
+    <section id="galeria" aria-labelledby="galeria-title">
+      <div class="section-container">
+        <div class="section-header reveal">
+          <span class="section-label">Galeria</span>
+          <h2 id="galeria-title" class="section-title">Momentos de cuidado e carinho</h2>
+          <p class="section-subtitle">Imagens que refletem a essência do atendimento: presença, respeito e dedicação.</p>
+        </div>
+        <div id="gallery-grid" class="gallery-grid">
+          <!-- Gallery rendered via JS -->
+        </div>
+      </div>
+    </section>
+
+    <section id="depoimentos" aria-labelledby="depoimentos-title">
+      <div class="section-container">
+        <div class="section-header reveal">
+          <span class="section-label">Depoimentos</span>
+          <h2 id="depoimentos-title" class="section-title">O que as famílias dizem</h2>
+        </div>
+        <div class="testimonials-slider">
+          <div id="testimonials-track" class="testimonials-track">
+            <!-- Testimonials rendered via JS -->
+          </div>
+          <div class="testimonials-nav">
+            <button id="testimonial-prev" aria-label="Depoimento anterior"><i class="fas fa-chevron-left" aria-hidden="true"></i></button>
+            <button id="testimonial-next" aria-label="Próximo depoimento"><i class="fas fa-chevron-right" aria-hidden="true"></i></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats-section" aria-label="Estatísticas de atuação">
+      <div class="section-container">
+        <div class="stats-grid">
+          <div class="stat-item reveal">
+            <div class="stat-number">+<span class="counter" data-target="120">0</span></div>
+            <div class="stat-label">Idosos atendidos</div>
+          </div>
+          <div class="stat-item reveal">
+            <div class="stat-number"><span class="counter" data-target="5000" data-suffix="+">0</span></div>
+            <div class="stat-label">Horas de cuidado</div>
+          </div>
+          <div class="stat-item reveal">
+            <div class="stat-number"><span class="counter" data-target="98">0</span>%</div>
+            <div class="stat-label">Famílias satisfeitas</div>
+          </div>
+          <div class="stat-item reveal">
+            <div class="stat-number"><span class="counter" data-target="12">0</span></div>
+            <div class="stat-label">Cursos realizados</div>
+          </div>
+          <div class="stat-item reveal">
+            <div class="stat-number"><span class="counter" data-target="5">0</span></div>
+            <div class="stat-label">Anos de experiência</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="certificados" aria-labelledby="certificados-title">
+      <div class="section-container">
+        <div class="section-header reveal">
+          <span class="section-label">Certificações</span>
+          <h2 id="certificados-title" class="section-title">Formação e capacitação constante</h2>
+          <p class="section-subtitle">Compromisso com a excelência através de cursos, certificados e especializações.</p>
+        </div>
+        <div id="certificates-grid" class="certificates-grid">
+          <!-- Certificates rendered via JS -->
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" aria-labelledby="faq-title">
+      <div class="section-container">
+        <div class="section-header reveal">
+          <span class="section-label">Perguntas Frequentes</span>
+          <h2 id="faq-title" class="section-title">Tire suas dúvidas</h2>
+        </div>
+        <div id="faq-list" class="faq-list">
+          <!-- FAQ rendered via JS -->
+        </div>
+      </div>
+    </section>
+
+    <section id="blog" aria-labelledby="blog-title">
+      <div class="section-container">
+        <div class="section-header reveal">
+          <span class="section-label">Blog</span>
+          <h2 id="blog-title" class="section-title">Conteúdos sobre cuidado e bem-estar</h2>
+          <p class="section-subtitle">Artigos para ajudar familiares a cuidar melhor de quem amam.</p>
+        </div>
+        <div id="blog-grid" class="blog-grid">
+          <!-- Blog rendered via JS -->
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" aria-labelledby="contato-title">
+      <div class="section-container">
+        <div class="section-header reveal">
+          <span class="section-label">Contato</span>
+          <h2 id="contato-title" class="section-title">Agende uma avaliação</h2>
+          <p class="section-subtitle">Entre em contato para conversarmos sobre as necessidades do seu familiar e montarmos um plano de cuidado personalizado.</p>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-info reveal-left">
+            <h2>Vamos conversar?</h2>
+            <p>Estou disponível para atender você e sua família com carinho, profissionalismo e pontualidade.</p>
+
+            <div class="contact-cards">
+              <a href="https://wa.me/55" id="contact-whatsapp" class="contact-card" target="_blank">
+                <div class="contact-card-icon"><i class="fab fa-whatsapp" aria-hidden="true"></i></div>
+                <div class="contact-card-text">
+                  <h4>WhatsApp</h4>
+                  <p data-config="telefone">(11) 99999-9999</p>
+                </div>
+              </a>
+              <a href="tel:+5511999999999" class="contact-card">
+                <div class="contact-card-icon"><i class="fas fa-phone" aria-hidden="true"></i></div>
+                <div class="contact-card-text">
+                  <h4>Telefone</h4>
+                  <p data-config="telefone">(11) 99999-9999</p>
+                </div>
+              </a>
+              <a href="mailto:contato@cuidadordeidosos.com.br" class="contact-card">
+                <div class="contact-card-icon"><i class="fas fa-envelope" aria-hidden="true"></i></div>
+                <div class="contact-card-text">
+                  <h4>E-mail</h4>
+                  <p data-config="email">contato@cuidadordeidosos.com.br</p>
+                </div>
+              </a>
+              <div class="contact-card">
+                <div class="contact-card-icon"><i class="fas fa-map-marker-alt" aria-hidden="true"></i></div>
+                <div class="contact-card-text">
+                  <h4>Área de Atendimento</h4>
+                  <p data-config="area_atendimento">Grande São Paulo e região</p>
+                </div>
+              </div>
+              <div class="contact-card">
+                <div class="contact-card-icon"><i class="fas fa-clock" aria-hidden="true"></i></div>
+                <div class="contact-card-text">
+                  <h4>Horários</h4>
+                  <p data-config="horarios">Segunda a Domingo, 7h às 22h</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-social">
+              <a href="https://instagram.com" id="contact-instagram" class="icon-btn" target="_blank" aria-label="Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+              <a href="https://facebook.com" id="contact-facebook" class="icon-btn" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+            </div>
+
+            <div class="map-container">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.197588119!2d-46.64873!3d-23.55052!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDMzJzAyLjAiUyA0NsKwMzgnNTUuNCJX!5e0!3m2!1spt-BR!2sbr!4v1700000000000!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Mapa da área de atendimento"></iframe>
+            </div>
+          </div>
+
+          <div class="contact-form-wrapper reveal-right">
+            <form id="contact-form" class="contact-form" aria-label="Formulário de agendamento">
+              <h3>Preencha seus dados</h3>
+              <div class="form-group">
+                <label for="nome">Seu nome</label>
+                <input type="text" id="nome" name="nome" required placeholder="Digite seu nome completo">
+              </div>
+              <div class="form-group">
+                <label for="telefone">Seu telefone</label>
+                <input type="tel" id="telefone" name="telefone" required placeholder="(11) 99999-9999">
+              </div>
+              <div class="form-group">
+                <label for="paciente">Nome do paciente</label>
+                <input type="text" id="paciente" name="paciente" required placeholder="Nome do idoso">
+              </div>
+              <div class="form-group">
+                <label for="idade">Idade do paciente</label>
+                <input type="number" id="idade" name="idade" required placeholder="Ex: 78" min="1" max="120">
+              </div>
+              <div class="form-group">
+                <label for="tipo">Tipo de atendimento</label>
+                <select id="tipo" name="tipo" required>
+                  <option value="" disabled selected>Selecione um tipo</option>
+                  <option value="Cuidados Básicos">Cuidados Básicos</option>
+                  <option value="Acompanhamento">Acompanhamento</option>
+                  <option value="Apoio Diário">Apoio Diário</option>
+                  <option value="Acompanhamento Externo">Acompanhamento Externo</option>
+                  <option value="Cuidados Especiais">Cuidados Especiais</option>
+                  <option value="Plantão Noturno">Plantão Noturno</option>
+                  <option value="Outro">Outro</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="horario">Horário desejado</label>
+                <input type="text" id="horario" name="horario" required placeholder="Ex: Diurno, noturno, manhã">
+              </div>
+              <div class="form-group">
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" name="mensagem" placeholder="Conte um pouco sobre a necessidade do atendimento..."></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary w-full"><i class="fab fa-whatsapp" aria-hidden="true"></i> Solicitar Atendimento</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="lightbox" class="lightbox" role="dialog" aria-label="Visualização ampliada da imagem">
+    <button id="lightbox-close" class="lightbox-close" aria-label="Fechar visualização"><i class="fas fa-times" aria-hidden="true"></i></button>
+    <img id="lightbox-img" src="" alt="">
+  </div>
+
+  <a href="https://wa.me/55" id="whatsapp-float" class="whatsapp-float" target="_blank" aria-label="Falar no WhatsApp">
+    <i class="fab fa-whatsapp" aria-hidden="true"></i>
+  </a>
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3><i class="fas fa-heart-pulse" aria-hidden="true"></i> <span data-config="nome">Maria Silva</span></h3>
+          <p data-config="slogan">Cuidar com respeito, dedicação e amor em cada momento.</p>
+          <div class="footer-social">
+            <a href="https://instagram.com" id="footer-instagram" target="_blank" aria-label="Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+            <a href="https://facebook.com" id="footer-facebook" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+            <a href="https://wa.me/55" id="footer-whatsapp" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp" aria-hidden="true"></i></a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h4>Links Rápidos</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Serviços</h4>
+          <ul>
+            <li><a href="servico.html?id=cuidados-basicos">Cuidados Básicos</a></li>
+            <li><a href="servico.html?id=acompanhamento">Acompanhamento</a></li>
+            <li><a href="servico.html?id=cuidados-especiais">Cuidados Especiais</a></li>
+            <li><a href="servico.html?id=acompanhamento-externo">Acompanhamento Externo</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Contato</h4>
+          <ul>
+            <li><span data-config="telefone">(11) 99999-9999</span></li>
+            <li><span data-config="email">contato@cuidadordeidosos.com.br</span></li>
+            <li><span data-config="area_atendimento">Grande São Paulo</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>Criado e desenvolvido por <a href="#" id="dev-name">Pedro Correia Lopes Filho</a>. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

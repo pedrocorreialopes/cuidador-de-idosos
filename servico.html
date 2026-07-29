@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Serviço — Cuidador(a) de Idosos</title>
+  <meta name="description" content="Detalhes do serviço de cuidado ao idoso. Conheça benefícios, como funciona e cuidados realizados.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Nunito:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#2563EB',
+            primary700: '#1D4ED8',
+            secondary: '#10B981',
+            accent: '#F8FAFC',
+            text: '#1E293B',
+            textlight: '#475569'
+          },
+          fontFamily: { sans: ['Inter', 'Poppins', 'Nunito', 'sans-serif'] }
+        }
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="assets/icons/icon-192.svg">
+  <meta name="theme-color" content="#2563EB">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Pular para conteúdo principal</a>
+
+  <nav id="navbar" class="navbar" role="navigation" aria-label="Menu principal">
+    <div class="nav-container">
+      <a href="index.html" class="logo" aria-label="Voltar para página inicial">
+        <i class="fas fa-heart-pulse" aria-hidden="true"></i>
+        <span id="logo-name">Maria</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html#home">Home</a></li>
+        <li><a href="index.html#sobre">Sobre</a></li>
+        <li><a href="index.html#servicos">Serviços</a></li>
+        <li><a href="index.html#experiencia">Experiência</a></li>
+        <li><a href="index.html#depoimentos">Depoimentos</a></li>
+        <li><a href="index.html#contato">Contato</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button id="theme-toggle" class="icon-btn" aria-label="Alternar tema claro/escuro">
+          <i class="fas fa-moon" aria-hidden="true"></i>
+        </button>
+        <a href="index.html#contato" class="btn btn-primary hidden sm:flex">Agendar Visita</a>
+        <button id="mobile-menu-btn" class="mobile-menu-btn" aria-label="Abrir menu" aria-expanded="false">
+          <i class="fas fa-bars" aria-hidden="true"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <div id="mobile-menu-overlay" class="mobile-menu-overlay"></div>
+  <div id="mobile-menu" class="mobile-menu" role="dialog" aria-label="Menu mobile">
+    <button id="mobile-menu-close" class="mobile-menu-close" aria-label="Fechar menu"><i class="fas fa-times" aria-hidden="true"></i></button>
+    <ul class="mobile-menu-links">
+      <li><a href="index.html#home"><i class="fas fa-home"></i> Home</a></li>
+      <li><a href="index.html#sobre"><i class="fas fa-user"></i> Sobre</a></li>
+      <li><a href="index.html#servicos"><i class="fas fa-hands-holding-circle"></i> Serviços</a></li>
+      <li><a href="index.html#experiencia"><i class="fas fa-briefcase"></i> Experiência</a></li>
+      <li><a href="index.html#depoimentos"><i class="fas fa-comment-dots"></i> Depoimentos</a></li>
+      <li><a href="index.html#contato"><i class="fas fa-calendar-check"></i> Agendar Visita</a></li>
+    </ul>
+  </div>
+
+  <main id="main-content">
+    <section class="service-hero" id="service-detail">
+      <div class="service-hero-content">
+        <span class="service-hero-category" id="service-detail-category">Categoria</span>
+        <h1 class="service-hero-title" id="service-detail-title">Nome do Serviço</h1>
+        <p class="service-hero-desc" id="service-detail-desc">Descrição do serviço.</p>
+        <div class="hero-buttons" style="justify-content: center;">
+          <a href="index.html#contato" class="btn btn-primary" id="service-detail-cta"><i class="fab fa-whatsapp" aria-hidden="true"></i> Solicitar Atendimento</a>
+          <a href="index.html#servicos" class="btn btn-light"><i class="fas fa-arrow-left" aria-hidden="true"></i> Voltar aos Serviços</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-container" aria-label="Detalhes do serviço">
+      <img id="service-detail-image" src="" alt="" class="service-detail-image">
+
+      <div class="service-detail-grid">
+        <div class="service-detail-section">
+          <h3><i class="fas fa-gift text-primary mr-2" aria-hidden="true"></i>Benefícios</h3>
+          <ul class="service-detail-list" id="service-detail-benefits"></ul>
+        </div>
+        <div class="service-detail-section">
+          <h3><i class="fas fa-gears text-primary mr-2" aria-hidden="true"></i>Como funciona</h3>
+          <ul class="service-detail-list" id="service-detail-how"></ul>
+        </div>
+      </div>
+
+      <div class="service-detail-grid">
+        <div class="service-detail-section">
+          <h3><i class="fas fa-hand-holding-heart text-primary mr-2" aria-hidden="true"></i>Cuidados realizados</h3>
+          <ul class="service-detail-list" id="service-detail-cares"></ul>
+        </div>
+        <div class="service-detail-card">
+          <h4><i class="fas fa-user-check text-secondary mr-2" aria-hidden="true"></i>Perfil do paciente</h4>
+          <p>Atendimento adequado para idosos que buscam apoio diário, segurança, companhia e cuidados específicos de saúde.</p>
+          <p><strong>Duração:</strong> <span id="service-detail-duration">Conforme necessidade</span></p>
+          <p><strong>Modalidade:</strong> <span id="service-detail-modality">Domiciliar</span></p>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" aria-labelledby="faq-title">
+      <div class="section-container">
+        <div class="section-header reveal">
+          <span class="section-label">Dúvidas</span>
+          <h2 id="faq-title" class="section-title">Perguntas Frequentes sobre este serviço</h2>
+        </div>
+        <div id="faq-list" class="faq-list"></div>
+      </div>
+    </section>
+  </main>
+
+  <a href="https://wa.me/55" id="whatsapp-float" class="whatsapp-float" target="_blank" aria-label="Falar no WhatsApp">
+    <i class="fab fa-whatsapp" aria-hidden="true"></i>
+  </a>
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-bottom">
+        <p>Criado e desenvolvido por <a href="#" id="dev-name">Pedro Correia Lopes Filho</a>. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
